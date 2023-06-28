@@ -1,0 +1,22 @@
+Om de HTML te publiceren op een GitHub Pages-website, kun je de volgende stappen volgen:
+1. Maak een nieuwe branch aan: Om de gepubliceerde HTML-bestanden te scheiden van de broncode, maak je een nieuwe branch aan in je lokale Git-repository. Je kunt dit doen met het volgende commando:
+
+   git branch gh-pages
+
+ Schakel daarna over naar de nieuwe branch met het volgende commando:
+
+     git checkout gh-pages
+
+2. Verplaats de HTML-bestanden naar de nieuwe branch: Kopieer de gegenereerde HTML-bestanden naar de nieuw gemaakte branch (`gh-pages`). Zorg ervoor dat je alleen de relevante bestanden kopieert en niet de volledige Git-repository.
+3. Commit en push de branch naar GitHub: Voeg de HTML-bestanden toe aan de Git-index, commit de wijzigingen en push de branch naar de GitHub-repository. Gebruik hiervoor de volgende commando's:
+
+   git add .
+   git commit -m "Publishing HTML files"
+   git push origin gh-pages
+
+4. Ga naar de repository op GitHub: Ga naar de repository op GitHub via de URL (bijvoorbeeld https://github.com/your-username/repositorynaam).
+5. Configureer de GitHub Pages-instellingen: Klik op het tabblad "Settings" in de repository en scroll naar beneden naar de sectie "GitHub Pages". Stel de bron in op "gh-pages" en klik op "Save". Dit vertelt GitHub om de bestanden in de `gh-pages` branch weer te geven als een GitHub Pages-website.
+6. Test de gepubliceerde site: GitHub Pages zal een URL geven waarop je website beschikbaar is. Dit kan even duren voordat het volledig is uitgerold. Ga naar de gepubliceerde URL om te controleren of de HTML-bestanden correct worden weergegeven.
+Belangrijk: Zorg ervoor dat je toegang hebt tot de repository en de juiste rechten hebt om wijzigingen aan te brengen en GitHub Pages in te schakelen.
+Op deze manier kun je je HTML-bestanden publiceren op een GitHub Pages-website. Houd er rekening mee dat als je wijzigingen wilt aanbrengen in de gepubliceerde website, je deze stappen moet herhalen door de HTML-bestanden bij te werken in de `gh-pages` branch en de wijzigingen naar GitHub te pushen.
+

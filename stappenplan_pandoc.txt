@@ -1,0 +1,18 @@
+Document omzetten naar HTML met behulp van Pandoc
+
+Als je het document wilt omzetten naar HTML met behulp van Pandoc, kun je de volgende stappen volgen:
+1. Installeer Pandoc: Als je Pandoc nog niet hebt geïnstalleerd, moet je het eerst downloaden en installeren op je computer. Ga naar de Pandoc-website (https://pandoc.org/) en volg de instructies voor je besturingssysteem.
+2. Zorg ervoor dat het document in een ondersteund formaat is: Pandoc ondersteunt verschillende bestandsindelingen, zoals Markdown, LaTeX, Microsoft Word, enz. Zorg ervoor dat het document in een van deze ondersteunde indelingen is voordat je het gaat converteren naar HTML.
+3. Open een terminal of opdrachtprompt: Ga naar de map waarin het document is opgeslagen door het pad naar de map in te voeren in de terminal of opdrachtprompt.
+4. Voer de Pandoc-opdracht uit: Gebruik de volgende commandostructuur om het document om te zetten naar HTML:
+
+   pandoc -s <input-bestand> -o <output-bestand>.html
+
+Vervang `<input-bestand>` door de naam en pad van het bestand dat je wilt converteren, en `<output-bestand>` door de naam en pad van het gewenste HTML-uitvoerbestand.
+Bijvoorbeeld, als je `document.md` wilt converteren naar `output.html`, gebruik dan het volgende commando:
+
+    pandoc -s document.md -o output.html
+
+5. Het HTML-bestand is gemaakt: Na het uitvoeren van het commando wordt het HTML-bestand gemaakt in de opgegeven locatie. Je kunt dit bestand openen in een webbrowser om het resultaat te bekijken.
+Houd er rekening mee dat de exacte opmaak en styling van het resulterende HTML-bestand afhankelijk zijn van de bronopmaak van het document en eventuele aangepaste instellingen die je aan Pandoc hebt toegepast. Je kunt de Pandoc-documentatie raadplegen voor meer informatie over het aanpassen van de converteringsopties en het verkrijgen van het gewenste resultaat.
+
