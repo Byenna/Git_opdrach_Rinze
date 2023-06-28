@@ -1,6 +1,3 @@
-# Git_opdrach_Rinze
-Morgen git en github, dat is in ieder geval allemaal git en github gebruiken, met z'n vieren aan 1 document werken: iedereen maakt in een eigen branch wijzigingen aan dat document, wanneer iedereen die wijzigingen heeft gemaakt de wijzigingen samenvoegen naar de main branch en eventuele conflicten oplossen.
-
 
 Hier is een stappenplan:
 1. Maak een repository aan op GitHub: Ga naar https://github.com en maak een account aan als je er nog geen hebt. Maak vervolgens een nieuwe repository aan waarin je het document wilt opslaan.
@@ -35,3 +32,5 @@ git push origin main
 
 Op deze manier worden de wijzigingen ook beschikbaar gesteld voor andere teamleden.
 Dit stappenplan geeft een algemeen overzicht van hoe je met meerdere teamleden aan een document kunt werken met behulp van Git en GitHub. Het kan handig zijn om enige bekendheid te hebben met het gebruik van Git en de basiscommando's ervan.
+
+
